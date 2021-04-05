@@ -7,7 +7,7 @@ const linguist = require('linguist');
 ```
 
 ```javascript
-linguist.GetHexColour('JavaScript');
+linguist.GetHexColour('JavaScript'); // non case-sensitive
 
 >#f1e05a
 

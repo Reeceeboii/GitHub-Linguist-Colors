@@ -19,6 +19,14 @@ linguist.GetHexColour('Swift');
 >#ffac45
 ```
 
+For languages that don't exist, `#000` (black) is returned
+
+```js
+linguist.GetHexColour('unobtanium');
+
+>#000
+```
+
 ```js
 linguist.GetColourMap();
 >

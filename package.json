@@ -1,7 +1,7 @@
 {
   "name": "github-linguist-colours",
   "version": "1.0.0",
-  "description": "Given a string denoting a programming language, return its corresponding GitHub linguist hex colour",
+  "description": "Querying GitHub linguist language colours from JavaScript or TypeScript",
   "main": "/src/linguist.ts",
   "types": "/src/index.d.ts",
   "repository": "git@github.com:Reeceeboii/github-linguist-colours.git",

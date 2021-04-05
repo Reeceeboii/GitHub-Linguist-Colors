@@ -1,21 +1,9 @@
 const linguist = require('../dist/linguist');
 
 test('GetHexColour() JS uppercase', () => {
-  expect(linguist.GetHexColour('JavaScript')).toBe('#f1e05a');
-});
-
-test('GetHexColour() JS lowercase', () => {
-  expect(linguist.GetHexColour('javascript')).toBe('#f1e05a');
-});
-
-test('GetHexColour() Swift lowercase', () => {
-  expect(linguist.GetHexColour('swift')).toBe('#ffac45');
-});
-
-test('GetHexColour() unknown language', () => {
-  expect(linguist.GetHexColour('unobtainium')).toBe('#000');
+  expect(linguist.getHexColour('JavaScript')).toBe('#f1e05a');
 });
 
 test('GetColourMap() returns Map', () => {
-  expect(linguist.GetColourMap() instanceof Map).toBe(true);
+  expect(linguist.getColourMap() instanceof Object).toBe(true);
 });

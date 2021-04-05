@@ -10,19 +10,9 @@ const linguist = require('linguist');
 ```
 
 ```javascript
-// non case-sensitive
-linguist.GetHexColour('javascript');
-
->#f1e05a
-
 linguist.GetHexColour('Swift');
 
 >#ffac45
-
-// for languages that don't exist, `#000` (black) is returned
-linguist.GetHexColour('unobtanium');
-
->#000
 ```
 
 You can also simply return the underlying map itself if you wish:

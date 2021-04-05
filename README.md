@@ -7,7 +7,7 @@ Given a string denoting a programming language, return its corresponding GitHub 
 
 
 ```javascript
-const linguist = require('linguist');
+import { getHexColour, getColourMap } from 'github-linguist-colours';
 ```
 
 ```javascript

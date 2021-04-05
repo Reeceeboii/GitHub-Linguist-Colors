@@ -8,9 +8,7 @@ branches:
 cache:
   directories:
     - node_modules
-before_install:
-  - npm update
 install:
-  - npm install && npm build
+  - yarn  && yarn build
 script:
-  - npm test
+  - yarn test

@@ -1,6 +1,7 @@
 # GitHub Linguist Colours
 
 ![travis](https://api.travis-ci.org/Reeceeboii/GitHub-Linguist-Colors.svg?branch=master&status=passed)
+[![npm version](https://badge.fury.io/js/github-linguist-colours.svg)](https://badge.fury.io/js/github-linguist-colours)
 
 Given a string denoting a programming language, return its corresponding GitHub linguist hex colour:
 

@@ -13,7 +13,7 @@
   },
   "type":"module",
   "files": [
-    "dist/linguist.js"
+    "dist/*"
   ],
   "scripts": {
     "build": "tsc",

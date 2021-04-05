@@ -10,14 +10,14 @@ const linguist = require('linguist');
 ```
 
 ```javascript
-linguist.GetHexColour('Swift');
+linguist.getHexColour('Swift');
 
 >#ffac45
 ```
 
 You can also simply return the underlying map itself if you wish:
 ```js
-linguist.GetColourMap();
+linguist.getColourMap();
 >
   {
   ...

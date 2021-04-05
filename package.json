@@ -9,6 +9,9 @@
   "author": "Reece Mercer <reecemercer981@gmail.com>",
   "license": "MIT",
   "private": false,
+  "engines": {
+    "node": ">=14.16.0"
+  },
   "scripts": {
     "build": "tsc",
     "test": "jest",

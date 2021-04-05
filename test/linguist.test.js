@@ -1,8 +1,5 @@
 const linguist = require('../dist/linguist');
 
-// eslint-disable-next-line no-console
-console.log(linguist.GetColourMap());
-
 test('GetHexColour() JS uppercase', () => {
   expect(linguist.GetHexColour('JavaScript')).toBe('#f1e05a');
 });

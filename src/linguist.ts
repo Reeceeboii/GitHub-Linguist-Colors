@@ -1,13 +1,11 @@
-let linguistJSON = require('./linguistData')
-linguistJSON = linguistJSON["default"]
+const linguistJSON = require('./linguistData');
 
-let colorMap = new Map<string, string>();
+const colorMap = new Map<string, string>();
 
-for (var key in linguistJSON) {
-  if (linguistJSON.hasOwnProperty(key)) {
-    colorMap.set(key.toLowerCase(), linguistJSON[key].color)
-  }
-}
+// put colours and langs into a map
+Object.keys(linguistJSON.default).forEach((key: any) => {
+  colorMap.set(key.toLowerCase(), linguistJSON.default[key].color);
+});
 
 // given a string, return the hex colour, or hex black if it is not found
 export function GetHexColour(lang: string): string {

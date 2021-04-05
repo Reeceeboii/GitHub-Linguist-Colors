@@ -1,4 +1,7 @@
 # GitHub Linguist Colours
+
+![travis](https://api.travis-ci.org/Reeceeboii/GitHub-Linguist-Colors.svg?branch=master&status=passed)
+
 Given a string denoting a programming language, return its corresponding GitHub linguist hex colour:
 
 

@@ -4,6 +4,7 @@
   "description": "Querying GitHub linguist language colours from JavaScript or TypeScript",
   "main": "/src/linguist.ts",
   "types": "/src/index.d.ts",
+  "type": "module",
   "repository": "git@github.com:Reeceeboii/github-linguist-colours.git",
   "author": "Reece Mercer <reecemercer981@gmail.com>",
   "license": "MIT",

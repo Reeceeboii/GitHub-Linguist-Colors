@@ -11,14 +11,14 @@ import { getHexColour, getColourMap } from 'github-linguist-colours';
 ```
 
 ```javascript
-linguist.getHexColour('Swift');
+getHexColour('Swift');
 
 >#ffac45
 ```
 
 You can also simply return the underlying map itself if you wish:
 ```js
-linguist.getColourMap();
+getColourMap();
 >
   {
   ...

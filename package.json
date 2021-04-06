@@ -1,6 +1,6 @@
 {
   "name": "github-linguist-colours",
-  "version": "1.0.3",
+  "version": "1.0.4",
   "description": "Querying GitHub linguist language colours from JavaScript or TypeScript",
   "main": "./dist/linguist.js",
   "types": "./dist/linguist.d.ts",
